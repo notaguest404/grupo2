@@ -1,0 +1,66 @@
+html,
+body {
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.tableContainerClass {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    border-spacing: 0;
+}
+
+.backgroundContainer {
+    width: 20%;
+    background-color: rgb(127, 173, 199);
+}
+
+
+/* Add padding to containers */
+
+.container {
+    padding: 30px;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.logoWhere {
+    /*padding-top: 0;*/
+    margin-top: -25%;
+    font-size: 3.5ex;
+    font-family: "Baloo";
+    color: rgb(226, 226, 226);
+}
+
+.logo3first {
+    color: rgb(109, 255, 145);
+}
+
+.logo3second {
+    color: rgb(245, 255, 109);
+}
+
+#button {
+    margin-left: 89.5%;
+}
+
+#title {
+    margin-top: -10%;
+    padding-left: 3%;
+}
+
+#paginas {
+    padding-left: 6%;
+}

@@ -1,0 +1,102 @@
+html,
+body {
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.tableContainerClass {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border-spacing: 0;
+}
+
+.backgroundContainer {
+    width: 20%;
+    background-color: rgb(127, 173, 199);
+}
+
+
+/* Add padding to containers */
+
+.container {
+    padding: 16px;
+}
+
+
+/* Full-width input fields */
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: rgb(240, 240, 240);
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    background-color: rgb(229, 226, 226);
+    outline: none;
+}
+
+input[type="file"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: rgb(240, 240, 240);
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.savebtn {
+    background-color: rgb(0, 162, 255);
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 2ex;
+    font-weight: bolder;
+}
+
+.savebtn:hover {
+    opacity: 1;
+}
+
+.logoWhere {
+    padding-top: 0.5ex;
+    font-size: 3.5ex;
+    font-family: "Baloo";
+    color: rgb(226, 226, 226);
+}
+
+.logo3first {
+    color: rgb(109, 255, 145);
+}
+
+.logo3second {
+    color: rgb(245, 255, 109);
+}
+
+#logout {
+    margin-left: 89.5%;
+}
